@@ -87,15 +87,15 @@ Step 2
     }
   }
   
-  //understanding  the terms
-  # parenthash: Hash code of parent
-  # extra data: extra 32 bit to pass
-  # difficulty : it is the measure of difficulty to mine data
-  # mixhash : kept fixed throughout blockchain
-  # combination of nonce and mixhash are called as proof of work
-  # we need to identify te value of nonce
-  # gas limit is the limit
-  # alloc is used to define a list of prefilled wallet
+  # understanding  the terms
+   parenthash: Hash code of parent
+   extra data: extra 32 bit to pass
+   difficulty : it is the measure of difficulty to mine data
+   mixhash : kept fixed throughout blockchain
+   combination of nonce and mixhash are called as proof of work
+   we need to identify te value of nonce
+   gas limit is the limit
+   alloc is used to define a list of prefilled wallet
   
 </pre>
 <h1>Step 3</h1>
