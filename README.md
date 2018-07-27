@@ -1,4 +1,5 @@
-# basicBlockchainImplementation
+<h4> written basicBlockchain</h4>
+<h4>Implementation tutorial</h4>
 implementing a basic Blockchain model using GoEthereum.
 
 <h1>
@@ -98,11 +99,36 @@ Step 2
    alloc is used to define a list of prefilled wallet
   
 </pre>
-<h1>Step 3</h1>
+<h1>Step 3: initialize</h1>
 <hr>
+<pre>
+  in termianl go to home directory
+    
+    /home/dir_name/go-ethereum/build/bin/geth--datadir ~/ethereum/net3 init genesis/genesis3.json
+    ...........net3/....networkid 3 console
+</pre>
 
+<h1>
+step 4 validating and mining ether
+</h1>
+<hr>
+<pre>
+    > personal.newAccount()
+      eth.accounts
+      eth.blockNumber
+      miner.start()
+      miner.stop()
+      eth.blockNumber()
+      eth.getBalance("0x5f0694123...")
+      exit
+</pre>
 
-
+# consensur
+ we need more than proof of work
+->proof of stack
+->proof of elapsed time
+->proof of burn
+->proof of capacity
 
 
 
